@@ -1,8 +1,8 @@
 fun main(){
-    val likes = 0
+    val likes = 21
     var text = ""
 
-    if(likes % 10 == 1){
+    if(likes % 10 == 1 && likes % 100 != 11){
         text = "человеку"
     }else {
         text ="людям"
